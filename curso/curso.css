@@ -1,34 +1,39 @@
 /* dindin */
-*{
-    padding: 0;
-    margin: 0;
+* {
+    margin:0.5%;
+    padding: 0.005%;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 
 .header-position {
-    display: flex;
     background-color: #2E948A;
-    font-family: 'Ubuntu', sans-serif;
+    color: #FDFDFD;
+    justify-content:space-between;
+    display: flex;       
 }
 
 .button-content a{
-    display: absolute;
-    justify-content: left;
     text-decoration: none;
-    padding: 12px;
-    color: #fff;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    margin: center;
-    transition: 0.5s;
-
+    color: #FDFDFD;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: right;
+    display:flex;
+    
 }
+
+.content-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 
 footer {
     background-color: #2E948A;
     font-family: 'Ubuntu', sans-serif;
+    display:center;
 }
 

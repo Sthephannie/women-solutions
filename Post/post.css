@@ -17,7 +17,6 @@ header {
     top: 0px;
 }
 .logo {
-    /* height: 100px; width: auto; */
     position: absolute;
      width: 69px;
      height: 71px;
@@ -122,57 +121,70 @@ a {
 }
 
 .container {
-position: absolute;
-width: 1440px;
-height: 899px;
-left: 0px;
-top: 2082px;
-background: #F7F7F7;
-
-}
-.container .name2 h1 {
-
-width: 528px;
-height: 57px;
-left: 456px;
-top: 2161px;
-font-weight: 500;
-font-size: 50px;
-line-height: 57px;
-display: flex;
-align-items: center;
-color: #FF4081;
-}
-
-.imagem2 {
     position: absolute;
-left: 10.83%;
-right: 69.17%;
-top: 72.74%;
-bottom: 18.51%;
-/*background: #000000;
-border: 1px solid #000000;*/
+    width: 1440px;
+    height: 899px;
+    left: 0px;
+    top: 2082px;
+    background: #F7F7F7;
+}
+
+.container .name2 h1 {
+    align-content: center;
+    align-items: center; 
+    width: 528px;
+    height: 57px;
+    left: 456px;
+    top: 2161px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;  
+    color: #FF4081;
+}
+.container2 {
+    display: flex;
+}
+.imagem2 {
+
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+   
+    
+}
+
+.button-content a {
+    text-decoration: none;
+    line-height: 23px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #FFFFFF;
+    line-height: 23px;
+    margin: 0 10px;
+    transition: 1s;
+    background: #FF4081;
+    border-radius: 62px;
+
 }
 
 .imagem3 {
-    position: absolute;
-    left: 43.26%;
-    right: 40.21%;
-    top: 72.74%;
-    bottom: 18.51%;  
-   /* background: #2D2D2D;
-    border: 1px solid #000000;*/
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+   
+    
 }
 
 .imagem4 {
-    position: absolute;
-    left: 74.03%;
-    right: 12.99%;
-    top: 72.75%;
-    bottom: 18.5%;
-  /*  background: #000000;
-border: 1px solid #000000;
-    box-sizing: border-box;*/
+   
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+   
 }
 
 .container h1 {
@@ -188,6 +200,8 @@ text-align: center;
 color: #FF4081;
 
 }
+
+
 
 .logo2 {
     position: absolute;

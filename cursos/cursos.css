@@ -1,11 +1,44 @@
 /* dindin */
-
-header {
-    background-color: #2E948A;
+* {
+    margin:0.5%;
+    padding: 0.005%;
     font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+      
 }
+
+
+.header-position {
+    background-color: #2E948A;
+    color: #FDFDFD;
+    justify-content:space-between;
+    display: flex; 
+   
+    
+        
+}
+
+.button-content a{
+    text-decoration: none;
+    color: #FDFDFD;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    justify-content:space-between;
+    display: flex;
+    
+    
+}
+
+.content-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 
 footer {
     background-color: #2E948A;
     font-family: 'Ubuntu', sans-serif;
+    display:center;
 }

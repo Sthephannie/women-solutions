@@ -1,25 +1,42 @@
 /* dindin */
 * {
-    margin:0.5%;
-    padding: 0.005%;
+    
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
+  
+    
 }
 
 
-.header-position {
+* header {
     background-color: #2E948A;
     color: #FDFDFD;
     justify-content:space-between;
-    display: flex;       
+    display: flex; 
+    align-items: flex-end;
+    ax-width: 1440px;
+    max-height: 117px;
+
+}
+
+
+
+
+* footer {
+    background-color: #2E948A;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
 .button-content a{
     text-decoration: none;
     color: #FDFDFD;
     font-family: 'Ubuntu', sans-serif;
-    text-align: right;
-    display:flex;
+    text-align: center;
+    justify-content:space-between;
+    
     
 }
 
@@ -29,11 +46,3 @@
     justify-content: center;
     height: 100%;
 }
-
-
-footer {
-    background-color: #2E948A;
-    font-family: 'Ubuntu', sans-serif;
-    display:center;
-}
-

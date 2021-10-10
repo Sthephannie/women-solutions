@@ -80,19 +80,31 @@
     p {
 
         font-style: normal;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 20px;
         line-height: 23px;
         color: #555555;
 
     }
 
-    .main-container {
+    .main-content {
+
         margin-left: 5.1rem;
-        margin-top: 4.4rem;
-        margin-bottom: 2.2rem;
+        margin-top: 2.5rem;
+        ;
+
 
     }
+
+    .main-img {
+
+        margin-right: 5.1rem;
+       
+       
+
+    }
+
+
 
     h4 {
     
@@ -102,26 +114,22 @@
         line-height: 40px;
         max-width: 724px;
         color: #FF4081;
-        margin-top: -30px;
+        
         margin-bottom: 4rem;
+      
     
     }
 
-    text {
+    .text-container {
     
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
         line-height: 21px;
-        color: #555555;
-        margin-bottom: 10rem;
-        margin-top: 50px;
-        margin-left:20px;
+        color: #000000;
     
 
     }
-
-
 
     .content-flex {
         display: flex;
@@ -176,7 +184,7 @@
         color: #FFFFFF;
         border: 2px solid #FFFFFF;
         box-sizing: border-box;
-        background: #419488;;
+        background: #419488;
 }
 
     .button-content3 a {

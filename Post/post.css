@@ -2,156 +2,112 @@
     margin:0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-   
-    
+    font-style: normal; 
 }
-
 
 header { 
     background-color: #2e948a;
     box-shadow: 0px 3px 7px rgba(199, 63, 63, 0.25);
     color: white;
-    position: absolute;
-    width: 1440px;
-    height: 117px; 
-    left: 0px; 
-    top: 0px; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.6rem;
 }
 .logo {
-    position: absolute;
-     width: 69px;
-     height: 71px;
-     left: 82px;
-     top: 20px; 
- }
-
-
-
-ul  {
-    display: flex;
-    list-style: none;
+    height: auto;
+    width: 65%;
+    margin-left: 2.5rem;
 }
-
-#cursos {
-    position: absolute; 
-    width: 80px;
-    height: 23px;
-    left: 1028px;
-    top: 47px;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-}
-
-#blog {
-    position: absolute;
-    width: 55px;
-    height: 23px;
-    left: 1150px;
-    top: 47px;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
+ 
+.button {
     
+    margin-right: 5rem;
 }
-#contato {
-    position: absolute;
-    width: 95px;
-    height: 23px;
-    left: 1242px;
-    top: 47px;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-}
+   
+
 a {
     text-decoration: none;
-    justify-content: flex-end; 
     text-transform: uppercase;
-    color: #FDFDFD;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
 }
 
+.name{
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .name h1 {
-    position: absolute;
-    width: 758px;
-    height: 46px;
-    left: 310px;
-    top: 228px;
     font-weight: 500;
     font-size: 50px;
     line-height: 57px;
     display: flex;
-    align-items: center;
     color: #FF4081;
 }
 
 .name h5 {
-    position: absolute;
-    width: 200px;
-    height: 21px;
-    left: 620px;
-    top: 286px;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
     display: flex;
-    align-items: center;
     color: #9D9D9D;
 }
-
-#imagem {
-    position: absolute;
-    width: 1032px;
-    height: 465px;
-    left: 204px;
-    top: 381px;
+.imagem {
+    width: 70%;
+    display: flex;
+    align-items: center;
     background: #C4C4C4;
 }
 
-.texto {
-    position: absolute;
-    width: 1032px;
-    height: 1061px;
-    left: 204px;
-    top: 910px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    font-feature-settings: 'kern' off;
-    color: #000000;
-    line-height= 2em;
+.descricao{
+    margin-bottom: 5rem;
+    align-content: center;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  font-feature-settings: 'kern' off;
+  color: #000000;
 }
- .texto2 h1 {
+.descricao div {
+    align-self: center;
+}
+ .descricao h1 {
+    align-self: start;
+    line-height: 2em;
+    color: #419488;
     
-    line-height= 2em;
-    color: #419488;
  }
 
+.descricao p {
+    width: 50em;
 
- .texto3 h1 {
-    line-height= 2em;
-    color: #419488;
- }
+}
+
 .container {
-    position: fixed;
-    position: absolute;
-    width: 1440px;
-    /*height: 899px;*/
-    left: 0px;
-    top: 2082px;
+    align-items: center; 
     background: #F7F7F7;
 }
- .name2 {
+.container2{
+    display: flex;
+    align-items: center;
     text-align: center;
 }
+ /*.name2 {
+    text-align: center;
+}*/
 .container .name2 h1 {
     align-content: center;
     align-items: center; 
-    width: 528px;
-    height: 57px;
-    left: 456px;
-    top: 2161px;
+
     font-weight: 500;
     font-size: 50px;
     line-height: 57px;  
@@ -167,7 +123,7 @@ a {
     display: flex;
 }
 .imagem2 {
-    
+    align-items: center;
     border-radius: 12px;
     padding: 15px;
     flex: 1;
@@ -180,6 +136,7 @@ text-align: center;
  
 }
 .button-content a {
+    align-items: center;
     text-transform: lowercase;
     text-decoration: none;
     line-height: 23px;
@@ -214,10 +171,7 @@ text-align: center;
 
 .container h1 {
     
-width: 344px;
-height: 35.71px;
-left: 128px;
-top: 2650.16px;
+
 font-weight: bold;
 font-size: 25px;
 line-height: 29px;
@@ -227,17 +181,16 @@ color: #FF4081;
 }
 
 .rodape {
-    position: fixed;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;  
     list-style: none;
     text-decoration: none;
-    left:0;
-    bottom: 0;
     width: 100%;
     display: flex;
     background-color: #2E948A;
     justify-content: space-between;
     align-items: center;
-    padding: 2.9rem;
+    
 }
 
 .logo2 div {
@@ -265,6 +218,5 @@ color: #FF4081;
 }
 
 .logo2 {
-
     margin-left: 2rem;
 }

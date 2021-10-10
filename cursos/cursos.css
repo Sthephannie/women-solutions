@@ -25,7 +25,7 @@
     .container-header a {
         color: #FDFDFD;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 20px;
         line-height: 23px;        
         font-weight: bold;
@@ -87,6 +87,13 @@
 
     }
 
+    .main-container {
+        margin-left: 5.1rem;
+        margin-top: 4.4rem;
+        margin-bottom: 2.2rem;
+
+    }
+
     h4 {
     
         font-style: normal;
@@ -96,19 +103,21 @@
         max-width: 724px;
         color: #FF4081;
         margin-top: -30px;
+        margin-bottom: 4rem;
     
     }
 
     text {
     
         font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
         color: #555555;
-        margin-bottom: 90px;
+        margin-bottom: 10rem;
         margin-top: 50px;
         margin-left:20px;
+    
 
     }
 

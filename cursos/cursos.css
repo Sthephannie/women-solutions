@@ -3,7 +3,9 @@
     
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
-  
+    max-width: 1440px;
+    margin: auto;
+    
     
 }
 
@@ -11,33 +13,65 @@
 * header {
     background-color: #2E948A;
     color: #FDFDFD;
-    justify-content:space-between;
+    
     display: flex; 
-    align-items: flex-end;
-    ax-width: 1440px;
+    
+    max-width: 1440px;
     max-height: 117px;
 
 }
 
+.top-content {
+    margin-left: 82px;
+    
+    
 
-
-
-* footer {
-    background-color: #2E948A;
-    font-family: 'Ubuntu', sans-serif;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
 }
 
-.button-content a{
-    text-decoration: none;
-    color: #FDFDFD;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    justify-content:space-between;
+.title-content{
+    margin-left: 82px;
+
+
+}
+
+h2 {
     
-    
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 69px;
+
+/* identical to box height */
+text-transform: capitalize;
+
+color: #FF4081;
+
+}
+
+p {
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+/* identical to box height */
+
+color: #555555;
+
+}
+
+h4 {
+
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 40px;
+
+color: #FF4081;
+
 }
 
 .content-flex{
@@ -45,4 +79,34 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin: auto;
 }
+
+* footer {
+    background-color: #2E948A;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.bottom-content2 {
+    text-align:left; 
+
+
+}
+
+.bottom-content3{
+    text-align: center;
+
+}
+
+.button-content a{
+    text-decoration: none;
+    color: #FDFDFD;
+    font-family: 'Ubuntu', sans-serif;
+        
+}
+
+
+

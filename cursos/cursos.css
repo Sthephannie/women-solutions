@@ -12,7 +12,8 @@
     html {
         scroll-behavior: smooth;
     }
-  
+
+   
     .container-header {
         display: flex;
         background-color: #2E948A;
@@ -99,6 +100,7 @@
     .main-img {
 
         margin-right: 5.1rem;
+        size: 65%;
        
        
 
@@ -141,8 +143,7 @@
     
     }
     
-
-
+  
     .container-footer {
         background-color: #419488;
         display: flex;
@@ -185,7 +186,7 @@
         border: 2px solid #FFFFFF;
         box-sizing: border-box;
         background: #419488;
-}
+    }
 
     .button-content3 a {
     
@@ -206,8 +207,85 @@
         border: 2px solid #FFFFFF;
         box-sizing: border-box;
         background: #419488;;
+    }
+
+@media screen and (max-width: 767px) {
+    .container-header {
+      display:grid;
+      padding: auto;
+      text-align: center;
+      
+      
+    }
+
+    .container-header nav {
+    margin-right: 1.5rem;
+    
+
+    }
+
+
+    .container-header div {
+    margin-left: 0rem;
+    }
+
+    .title-container {
+
+    text-align: left;
+    margin-left: 1.8rem;
+    }
+
+  .title-container img{
+
+    display:none;
+    }
+    
+    
+    .content-flex{
+      flex-direction: column-reverse;
+      margin: 1rem;
+      text-align: center;
+    }
+
+    .main-content {
+        display: none;
+    }
+
+    .container-footer {
+        display: grid;
+    }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .title-container img{
+    
 
+        display:none;
+    }
 
+    .content-flex{
+        display:contents;
+        
+        text-align: center;
+    }
 
+    .main-content {
+        display:flex;
+        width: 50%;
+        
+    }
+       
+    .main-img {
+        justify-content: space-around;
+        margin-left: 8.25rem;
+        size: 65%;
+           
+    }
+    .container-text {
+
+        margin:4rem;
+          
+    }
+    }
+    
+  

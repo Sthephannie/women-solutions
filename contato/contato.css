@@ -15,6 +15,13 @@ header {
 } 
 
 /** ----------------------------PRICIPAL---------------------------------*/
+main{
+        
+    padding-left: 136px;
+    padding-top: 111px;
+    display: flex;
+
+}
 
 input[type="text"]{
     border-radius: 7px;
@@ -55,27 +62,29 @@ input[type="submit"]{
     color: #fff;
     text-align: center;
     width: 108px;
-    height: 22px
+    height: 22px;
+    /** font nunito; tirar a borda preta */
   }
 
 h1 {
     font-size: 40px;
     color: #FF4081;
-    margin-bottom: 20px; 
+    margin-bottom: 45.96px; 
     height: auto;
+    /*222px pra cima??? */
   }
   
-.ilustra{
-    height: auto;
-    text-align: center;
-    
+.ilustra img{
+position:absolute;
+width: 444px;
+height: 444px;
   }
   
  
   /** ----------------------------RODAPÉ---------------------------------*/
     
 footer{ 
-    display: flex;
+    display:flex;
     background-color: #2E948A;
     color: #FFFFFF;
     position: fixed;

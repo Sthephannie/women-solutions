@@ -14,9 +14,9 @@ header {
     color: white;
     position: absolute;
     width: 1440px;
-    height: 117px;
-    left: 0px;
-    top: 0px;
+    height: 117px; 
+    left: 0px; 
+    top: 0px; 
 }
 .logo {
     position: absolute;
@@ -134,6 +134,7 @@ a {
     color: #419488;
  }
 .container {
+    position: fixed;
     position: absolute;
     width: 1440px;
     /*height: 899px;*/
@@ -155,32 +156,41 @@ a {
     font-size: 50px;
     line-height: 57px;  
     color: #FF4081;
+    
 }
-.container2 {
+
+.name2 h1 {
+    align-content: center;
+    align-items: center; 
+}
+.container2  { 
     display: flex;
 }
 .imagem2 {
-
+    
     border-radius: 12px;
     padding: 15px;
     flex: 1;
     margin: 35px 8px;
    
-    
 }
 
+.imagem2  h1 p {
+text-align: center;
+ 
+}
 .button-content a {
+    text-transform: lowercase;
     text-decoration: none;
     line-height: 23px;
-    padding: 10px;
     text-align: center;
     border-radius: 5px;
     color: #FFFFFF;
-    line-height: 23px;
     margin: 0 10px;
     transition: 1s;
     background: #FF4081;
     border-radius: 62px;
+    padding: 0.9rem 1.9rem 0.9rem 1.9rem;
 
 }
 
@@ -217,8 +227,44 @@ color: #FF4081;
 }
 
 .rodape {
-    background-color: #419488;
+    position: fixed;
+    list-style: none;
+    text-decoration: none;
+    left:0;
+    bottom: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    background-color: #2E948A;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.9rem;
+}
+
+.logo2 div {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape a {
+    text-transform: lowercase;
+    color: #FFFFFF;
+    padding-top:  0.3rem;
+   
+}
+
+.rodape button {
+    
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 62px;
+    margin-top: 0.4rem;
+    margin-right: 5rem;
+    color: #FFFFFF;
+    padding: 0.5rem 1.9rem 0.5rem 1.9rem;
+}
+
+.logo2 {
+
+    margin-left: 2rem;
 }

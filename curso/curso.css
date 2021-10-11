@@ -2,47 +2,290 @@
 * {
     
     font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-  
-    
-}
-
-
-* header {
-    background-color: #2E948A;
-    color: #FDFDFD;
-    justify-content:space-between;
-    display: flex; 
-    align-items: flex-end;
     max-width: 1440px;
-    max-height: 117px;
+    margin:auto;
 
+
+  
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
-
-
-* footer {
-    background-color: #2E948A;
-    font-family: 'Ubuntu', sans-serif;
-    justify-content: space-between;
+.container-header {
     display: flex;
+    background-color: #2E948A;
+    justify-content: space-between;
     align-items: center;
+    padding: 0.8rem;
+    
 }
 
-.button-content a{
-    text-decoration: none;
+.container-header a {
     color: #FDFDFD;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    justify-content:space-between;
-    
-    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;        
+    font-weight: bold;
+    padding-left: 2rem;
+    text-decoration: none;
 }
 
-.content-flex{
+.container-header nav {
+    margin-right: 5rem;
+
+}
+
+
+.container-header div {
+    margin-left: 2.5rem;
+}
+
+
+.title-container{
+    margin-left: 5.1rem;
+    margin-top: 4.4rem;
+
+
+}
+
+.title-container img {
+
+    margin-left: 0
+
+}
+
+.container-text {
+
+    display: flex ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1.95px;
+
+}
+
+
+.main-title {
+
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+
+    text-transform: capitalize;
+
+    color: #FF4081;
+
+}
+
+
+
+
+
+.container-main {
+    background: #F7F7F7;
+    display: flex;
+}
+.main-content {
+    
+    margin-left: 5.1rem;
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+    ;
+
+
+}
+
+.main-img {
+
+    margin-right: 5.1rem;
+    size: 65%;
+}
+
+
+
+h4 {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    max-width: 724px;
+    color: #FF4081;
+    
+    margin-bottom: 4rem;
+  
+
+}
+
+.text-container {
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+
+}
+
+.content-flex {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin: 68px;
+    max-width: 1157px;
+
 }
+
+
+.container-footer {
+    background-color: #419488;
+    display: flex;
+}
+
+
+
+
+.bottom-content a {
+    text-align:left;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+        color: #FFFFFF;
+
+}
+
+.bottom-content1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.button-content2 a {
+
+    border-radius: 62px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 1.85rem;
+    padding-right: 1.85rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #419488;
+}
+
+.button-content3 a {
+
+
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border-radius: 62px;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.25rem;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #419488;;
+}
+
+@media screen and (max-width: 767px) {
+.container-header {
+  display:grid;
+  padding: auto;
+  text-align: center;
+  
+  
+}
+
+.container-header nav {
+margin-right: 1.5rem;
+
+
+}
+
+
+.container-header div {
+margin-left: 0rem;
+}
+
+.title-container {
+
+text-align: left;
+margin-left: 1.8rem;
+}
+
+.title-container img{
+
+display:none;
+}
+
+
+.content-flex{
+  flex-direction: column-reverse;
+  margin: 1rem;
+  text-align: center;
+}
+
+.main-content {
+    display: none;
+}
+
+.container-footer {
+    display: grid;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+.title-container img{
+
+
+    display:none;
+}
+
+.content-flex{
+    display:contents;
+    
+    text-align: center;
+}
+
+.main-content {
+    display:flex;
+    width: 50%;
+    
+}
+   
+.main-img {
+    justify-content: space-around;
+    margin-left: 8.25rem;
+    size: 65%;
+       
+}
+.container-text {
+
+    margin:4rem;
+      
+}
+}
+
+

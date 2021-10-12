@@ -3,7 +3,7 @@
     
     font-family: 'Ubuntu', sans-serif;
     margin:0;
-
+    
 }
 
 html {
@@ -17,7 +17,7 @@ html {
     background-color: #2E948A;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem;
+    padding: 1rem;
     
 }
 
@@ -44,19 +44,27 @@ html {
 
 
 .title-container{
-    
-    margin-left: 5.1rem;
-    margin-top: 4.4rem;
-    max-width:75%;
+    display: flex;    
+    padding:2rem;
+    max-width:95%;
+    justify-content: center;
+
+}
+
+.title-container img{
+    flex-direction: column; 
+       
+    max-width:85%;
+    max-height:85%;
 
 }
 
 .container-text {
 
     display: flex ;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-left: 0.35rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 0.35rem;
 
 }
 
@@ -208,7 +216,7 @@ h4 {
 @media screen and (max-width: 767px) {
    
     .container-header {
-      
+        padding: 1rem;
         flex-direction: column;
       
       
@@ -222,10 +230,14 @@ h4 {
 
 
     .container-header div {
-
+        
         margin: 0;
    
     }
+
+    .main.tilte {
+        width: 90%;
+    } 
 
     .title-container {
 
@@ -237,7 +249,8 @@ h4 {
     .content-flex {
         
         flex-direction: column;
-        margin: 0;
+        margin-bottom:0;
+        padding-bottom: 2rem;
         text-align: center;
 
     }
@@ -249,12 +262,21 @@ h4 {
         
     }
 
+    .container-main iframe {
+
+        margin-left: 5.1rem;
+        margin-top: 4.4rem;
+        margin-bottom:5.1rem;
+
+    }
+
     .container-footer {
         
         display: grid;
         justify-content: center ;
         padding-bottom:1rem;
-
+        margin-top:0;
+    
     }
 
 }
@@ -264,67 +286,81 @@ h4 {
     .container-header {
       
         flex-direction: column;
-        padding-left: -3rem;
+        margin-left: -2rem;
         text-align: center;
            
     }
 
     .container-header nav {
         
-        margin-right: 1.5rem;
+        display: flex;
    
     }
 
     .container-header div {
         
-        margin-left: 0.5rem;
+        display:flex;
     }
 
     .title-container {
-
-        padding-bottom: 2rem;
+        
+        align-content: center;
+        margin: auto;
     
     }
 
+    .main-title {
+
+        text-align: center;
+        margin: auto;
+        font-size: 40px;
+    }
+
+
     .line-content img {
         
-        display: none
+        display: none;
 
     }
     
     .content-flex {
         
         flex-direction: column;
-        margin: 0;
+        margin: auto;
         text-align: center;
 
     }
 
-    .main-content img {
-                
-        max-width: 85%;
-        max-height:85%;
+    .main-content iframe {
+
+        margin-left: -2rem;
+        margin-top: 1rem;
+        width:17rem;
+        height: 10rem;
         
+
     }
+
 
     .container-footer {
         
         flex-direction: column;
-        justify-content: center ;
+        justify-content: space-around;
         align-content: center;
-        margin-top:2rem;
+        margin-top: 0rem;
         padding:0.5rem;
 
     }
+       
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     
 
     .container-header {
         
-        padding:2rem;
-        display:flex;
+        padding:1rem;
+        display: flex;
         
     }
   
@@ -343,12 +379,19 @@ h4 {
     
 
     .title-container{
+        margin:auto;
+        flex-direction: column;
         
-        margin-left: 5.1rem;
-        margin-top: 4.4rem;
-        padding-bottom: 1.5rem;
+    }
+
+
+    .container-main iframe {
+
+       align-items: center;
+       margin-left: -0.8rem;
 
     }
+
 
     .line-content{ 
        
@@ -360,7 +403,7 @@ h4 {
     .content-flex{
         
         flex-direction: column;
-        margin-left: 5rem;
+        padding: 2rem;
         text-align: center;
 
     }
@@ -368,29 +411,24 @@ h4 {
     .main-content {
         
         display:flex;
-        width: 50%;
+        width: 70%;
                
     }
     
-    .main-content img {
-                
-        max-width: 85%;
-        max-height:85%;
-        
-    }
-
-    .container-text {
+        .container-text {
                
-        padding-bottom: 5rem;
+        padding-bottom: 2rem;
                
     }
 
     .container-footer {
         
-        display: flex;
+        display:flex;
+        justify-content: space-around;
+        
         padding-top :1%;
         padding-bottom :1%;
-        margin-top: 2rem;
+        
         
     }
 }

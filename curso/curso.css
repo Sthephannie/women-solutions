@@ -228,22 +228,20 @@ h4 {
 
     }
 
-
     .container-header div {
         
         margin: 0;
    
     }
 
-    .main.tilte {
-        width: 90%;
+    .main.title {
+        width: 100%;
     } 
 
     .title-container {
 
-    text-align: center;
-
-    
+        text-align: center;
+   
 }
 
     .content-flex {
@@ -252,6 +250,7 @@ h4 {
         margin-bottom:0;
         padding-bottom: 2rem;
         text-align: center;
+        margin-left: 1.5rem;
 
     }
 
@@ -270,12 +269,20 @@ h4 {
 
     }
 
+    .line-content img {
+        
+        display: flex;
+        width: 100%;
+        margin-left:-6rem;
+
+    }
+
     .container-footer {
         
         display: grid;
         justify-content: center ;
-        padding-bottom:1rem;
-        margin-top:0;
+        padding-top:1rem;
+        margin-left:0;
     
     }
 
@@ -312,21 +319,13 @@ h4 {
     .main-title {
 
         text-align: center;
-        margin: auto;
+        margin: 0;
         font-size: 40px;
     }
 
-
-    .line-content img {
-        
-        display: none;
-
-    }
-    
     .content-flex {
         
         flex-direction: column;
-        margin: auto;
         text-align: center;
 
     }
@@ -341,6 +340,13 @@ h4 {
 
     }
 
+    .line-content img {
+        
+        display: flex;
+        width: 90%;
+        margin-left:1rem;
+
+    }
 
     .container-footer {
         
@@ -352,8 +358,8 @@ h4 {
 
     }
        
-}
 
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     
 
@@ -392,14 +398,6 @@ h4 {
 
     }
 
-
-    .line-content{ 
-       
-        display:none;
-
-    }
-
-
     .content-flex{
         
         flex-direction: column;
@@ -415,17 +413,24 @@ h4 {
                
     }
     
-        .container-text {
+    .container-text {
                
-        padding-bottom: 2rem;
+    padding-bottom: 2rem;
                
+    }
+
+    .line-content img {
+        
+        display: flex;
+        width: 90%;
+        margin-left:1rem;
+
     }
 
     .container-footer {
         
         display:flex;
         justify-content: space-around;
-        
         padding-top :1%;
         padding-bottom :1%;
         

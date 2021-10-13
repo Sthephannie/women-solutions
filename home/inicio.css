@@ -1,5 +1,8 @@
 * {
 
+margin:  5px;
+height: 0,5px;
+
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
      
@@ -18,7 +21,7 @@ header {
 .container_header {
     height: auto;
     width: 65%;
-    margin-left: 2.5rem; 
+    margin-left: 4.5rem; 
 }
 
 nav {
@@ -31,7 +34,7 @@ a {
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: bold;
-    padding-left: 1rem;
+    padding-left: 5rem;
     margin-left: 0.5rem;
 }
 
@@ -42,10 +45,10 @@ a {
     display: flex;
     flex-direction: column; 
     font-weight: bold;
-    font-size: 60px;
+    font-size: 65px;
     line-height: 69px;
     color: #FF4081;
-
+    
 }
 
 .body p {
@@ -76,8 +79,8 @@ a {
 
 .imagem {
     
-    margin-bottom: 10rem;
-    margin-left: 40rem;
+    margin-bottom: 5rem;
+    margin-left: 65rem;
     display: flex;
     
 }
@@ -178,48 +181,77 @@ color: #FF4081;
     margin-left: 4rem;
     
 }
-
-.depoimento1 {
+.depoimento {
+    display: flex;
     flex-direction: column;
+    margin-left: 25%;
+}
+.depoimento h5{
+    margin-bottom: 5rem;
+}
+.container-depoimento {
+    display: flex;
+}
+.depoimento1 {
+display: flex;
+align-items: flex-start;
     margin-left: 4rem;
 }
 
 .depoimento2 {
-    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
     margin-left: 4rem;
 }
 
 .depoimento3 {
-    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
     margin-left: 4rem;
 }
  
 .depoimento4 {
-    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
     margin-left: 4rem;
 }
-
+.depoimento-texto{ 
+    font-family: Nunito;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.8rem;
+}
 .conteudo {
     display: flex;
     background-color:#E5E5E5;
     flex-direction: column;
 }
-
+.conteudo section{
+    display:flex;
+    justify-content: space-around;
+}
+.conteudo1{
+    display:flex;
+    flex-direction: column;
+}
 .conteudo h1 {
     
-    margin-left: 4rem;
+    
     font-weight: bold;
     font-size: 37px;
     line-height: 43px;
     color: #009688;
 }
 
-.conteudo1 {
-    flex-direction: column;
-    margin-left: 4rem;
+.conteudo-titulo {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5.5rem;
+    padding-left:5.6rem; 
+    
 }
 
-.conteudo1 h1 {
+.conteudo1 h2 {
     font-weight: bold;
 font-size: 27px;
 line-height: 31px;

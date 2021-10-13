@@ -45,36 +45,43 @@ html {
 
 .title-container{
     display: flex;    
-    padding:2rem;
+    padding-left:5rem;
+    padding-right:5rem;
     max-width:95%;
     justify-content: center;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem; 
 
 }
 
 .title-container img{
     flex-direction: column; 
-       
-    max-width:85%;
-    max-height:85%;
+    width: 15rem;
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+    padding-right: 3rem;
 
 }
 
 .container-text {
 
     display: flex ;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 0.35rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
 
 }
 
 .main-title {
-
+    
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
     line-height: 69px;
     color: #FF4081;
+    
 
 }
 
@@ -234,12 +241,14 @@ h4 {
    
     }
 
-    .main.title {
-        width: 100%;
-    } 
+    .main-title {
+        text-align: center;
+        margin: auto;
+        font-size: 40px;
+    }
 
     .title-container {
-
+        
         text-align: center;
    
 }
@@ -250,15 +259,17 @@ h4 {
         margin-bottom:0;
         padding-bottom: 2rem;
         text-align: center;
-        margin-left: 1.5rem;
+        margin-left:1.5rem;
 
     }
 
-    .main-content img {
-                
-        max-width: 85%;
-        max-height:85%;
-        
+    .main-img {
+
+        flex-direction: column;
+        justify-content: space-around;
+        width: 15rem;
+        margin-left: -8.5rem;
+
     }
 
     .container-main iframe {
@@ -387,6 +398,7 @@ h4 {
     .title-container{
         margin:auto;
         flex-direction: column;
+        
         
     }
 

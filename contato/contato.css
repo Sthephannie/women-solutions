@@ -1,0 +1,302 @@
+*
+{margin: 0;
+padding: 0%;
+}
+body {
+    font-family: "Ubuntu";
+    font-style: normal;
+}
+/** ----------------------------CABEÇALHO---------------------------------*/
+.container-menu {
+    display: flex;
+    background-color: #2E948A;
+    width: 100%;
+    height: 117px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 5rem;
+    width: 14.5625rem;
+    height: 4.4375rem;
+}
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    text-align:left;
+    padding-right: 6.25rem;
+}
+/** ----------------------------PRICIPAL---------------------------------*/
+.container-form {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+input[name="nome"]{
+    border-radius: 0.4375rem;
+    border: 0.0625rem solid;
+    margin-bottom: 0.875rem;
+    box-sizing: border-box;
+    width: 30.8125rem;
+    height: 2rem;
+    left: 0.1875rem;
+    padding-left: 25px;
+}
+input[name="email"]{
+    border-radius: 0.4375rem;
+    border: 0.0625rem solid;
+    margin-bottom: 0.875rem;
+    box-sizing: border-box;
+    width: 30.8125rem;
+    height: 2rem;
+    left: 0.1875rem;
+    padding-left: 25px;
+}
+textarea{
+    border-radius: 0.4375rem;
+    border: 0.0625rem solid;
+    box-sizing: border-box;
+    margin-bottom: 0.875rem;;
+    width: 30.8125rem;
+    height: 12.0625rem;
+    left: 0.1875rem;
+    resize: none;
+    padding-left: 1.5625rem;
+}
+input[type="submit"]{
+    border-radius: 0.4375rem;
+    background-color: #FF4081;
+    color: #fff;
+    text-align: center;
+    width: 6.75rem;
+    height: 1.375rem;
+    border: none;
+    /** font nunito */
+}
+h1 {
+    font-size: 2.5rem;
+    color: #FF4081;
+    margin-bottom: 2.8725rem;
+    height: auto;
+}
+.ilustra img{
+width: 27.75rem;
+height: 27.75rem;
+}
+  /** ----------------------------RODAPÉ---------------------------------*/
+footer{
+    display:flex;
+    background-color: #2E948A;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 12,9375rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0rem 0,1875rem 0,4375rem rgba(0, 0, 0, 0.25);
+}
+.container-footer div {
+    display: flex;
+    flex-direction: column;
+}
+.container-footer a {
+    color: #FFFFFF;
+    padding-top:  0.3rem;
+}
+.container-footer button {
+    border: 0.125rem solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 3.875rem;
+    margin-top: 0.4rem;
+    margin-right: 5rem;
+    color: #FFFFFF;
+    padding: 0.5rem 1.9rem 0.5rem 1.9rem;
+    font-size: 1,25px;
+}
+.menu3{
+    padding-right: 100px;
+}
+.container-footer{
+    padding-left: 80px;
+}
+
+*
+{margin: 0;
+padding: 0%;
+}
+body {
+    font-family: "Ubuntu";
+    font-style: normal;
+}
+/** ----------------------------CABEÇALHO---------------------------------*/
+.container-menu {
+    display: flex;
+    background-color: #2E948A;
+    width: 100%;
+    max-height: 117px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 5rem;
+    width: 14.5625rem;
+    height: 4.4375rem;
+}
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    text-align:left;
+    padding-right: 6.25rem;
+}
+/** ----------------------------PRICIPAL---------------------------------*/
+.container-form {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+input[name="nome"]{
+    border-radius: 0.4375rem;
+    border: 0.0625rem solid;
+    margin-bottom: 0.875rem;
+    box-sizing: border-box;
+    width: 100%;
+    left: 0.1875rem;
+    padding-left: 1.5625rem ;
+    font-family: "nunito";
+    font-size: 16px;
+}
+input[name="email"]{
+    border-radius: 0.4375rem;
+    border: 0.0625rem solid;
+    margin-bottom: 0.875rem;
+    box-sizing: border-box;
+    width: 100%;
+    left: 0.1875rem;
+    padding-left: 1.5625rem;
+    font-family: "nunito";
+    font-size: 16px;
+}
+textarea{
+    border-radius: 0.4375rem;
+    border: 0.0625rem solid;
+    box-sizing: border-box;
+    margin-bottom: 0.875rem;
+    width: 100%;
+    max-height: 193px;
+    left: 0.1875rem;
+    resize: none;
+    padding-left: 1.5625rem;
+    font-family: "nunito";
+    font-size: 16px;
+}
+input[type="submit"]{
+    border-radius: 0.4375rem;
+    background-color: #FF4081;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    max-width: 6.75rem;
+    max-height: 1.375rem;
+    border: none;
+    font-family: "nunito";
+    font-size: 16px;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #FF4081;
+    margin-bottom: 2.8725rem;
+    height: auto;
+}
+.ilustra img{
+    width: 100%;
+    height: 100%;
+max-width: 27.75rem;
+max-height: 27.75rem;
+}
+  /** ----------------------------RODAPÉ---------------------------------*/
+footer{
+    display:flex;
+    background-color: #2E948A;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 12.9375rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0rem 0,1875rem 0,4375rem rgba(0, 0, 0, 0.25);
+}
+
+.formulario{
+    width: 40%;
+}
+.container-footer div {
+    display: flex;
+    flex-direction: column;
+}
+.container-footer a {
+    color: #FFFFFF;
+    padding-top:  0.3rem;
+}
+.container-footer button {
+    border: 0.125rem solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 3.875rem;
+    margin-top: 0.4rem;
+    margin-right: 5rem;
+    color: #FFFFFF;
+    padding: 0.5rem 1.9rem 0.5rem 1.9rem;
+    font-size: 1.25rem;
+}
+.menu3{
+    padding-right: 6.25rem;
+}
+.container-footer{
+    padding-left: 5rem;
+}
+
+  /** ----------------------------MEDIA---------------------------------*/
+
+@media screen and (max-width:907px){
+
+    .container-form{
+        align-items: center;
+
+    }
+    .formulario{
+        margin-right: 0%;
+        width: 45%;
+    }
+    .ilustra{
+        width: 40%;
+        height: 40%;
+}
+}
+    
+@media screen and (max-width:300px){
+
+    .container-form{
+        flex-direction: column;
+        text-align: center;
+    }
+    .formulario{
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1{
+        text-align: center;
+    
+    }
+    .ilustra{
+        display: block;
+        width: 40%;
+        height: 40%;
+    }
+    
+}

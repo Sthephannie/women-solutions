@@ -163,8 +163,7 @@ input[name="nome"]{
     border: 0.0625rem solid;
     margin-bottom: 0.875rem;
     box-sizing: border-box;
-    width: 30.8125rem;
-    height: 2rem;
+    width: 100%;
     left: 0.1875rem;
     padding-left: 1.5625rem ;
 }
@@ -174,8 +173,6 @@ input[name="email"]{
     margin-bottom: 0.875rem;
     box-sizing: border-box;
     width: 100%;
-    max-width: 30.8125rem;
-    max-height: 2rem;
     left: 0.1875rem;
     padding-left: 1.5625rem;
 }
@@ -185,7 +182,6 @@ textarea{
     box-sizing: border-box;
     margin-bottom: 0.875rem;
     width: 100%;
-    max-width: 30.8125rem;
     max-height: 193px;
     left: 0.1875rem;
     resize: none;
@@ -228,6 +224,10 @@ footer{
     justify-content: space-between;
     box-shadow: 0rem 0,1875rem 0,4375rem rgba(0, 0, 0, 0.25);
 }
+
+.formulario{
+    width: 40%;
+}
 .container-footer div {
     display: flex;
     flex-direction: column;
@@ -251,4 +251,41 @@ footer{
 }
 .container-footer{
     padding-left: 5rem;
+}
+
+@media screen and (max-width:907px){
+    .ilustra{
+        width: 40%;
+        height: 40%;
+    }
+    .container-form{
+        align-items: center;
+    }
+    .formulario{
+        margin-right: 0%;
+        width: 45%;
+    }
+}
+@media screen and (max-width:695px){
+    .container-form{
+        flex-direction: column;
+        text-align: center;
+    }
+    .formulario{
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1{
+        text-align: center;
+    
+    }
+    .ilustra{
+        display: block;
+        width: 40%;
+        height: 40%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+         display: none;
+    }
 }

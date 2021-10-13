@@ -260,20 +260,25 @@ footer{
     padding-left: 5rem;
 }
 
+  /** ----------------------------MEDIA---------------------------------*/
+
 @media screen and (max-width:907px){
-    .ilustra{
-        width: 40%;
-        height: 40%;
-    }
+
     .container-form{
         align-items: center;
+
     }
     .formulario{
         margin-right: 0%;
         width: 45%;
     }
+    .ilustra{
+        width: 40%;
+        height: 40%;
 }
-@media screen and (max-width:695px){
+}
+    
+@media screen and (max-width:300px){
 
     .container-form{
         flex-direction: column;
@@ -292,9 +297,6 @@ footer{
         display: block;
         width: 40%;
         height: 40%;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-         display: none;
     }
     
 }

@@ -238,9 +238,8 @@
         margin-left:-7rem;
         align-items: center ;
         margin-right: -5rem;
-    
-
     }
+
     .main-content iframe {
 
         margin-left: -2rem;
@@ -259,6 +258,10 @@
 
     }
 
+    .button-content2{
+
+        margin-left:-4.9rem;
+    }
 
     .container-footer {
         

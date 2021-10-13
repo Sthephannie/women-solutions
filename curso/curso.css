@@ -242,8 +242,7 @@ h4 {
     }
 
     .main-title {
-        text-align: center;
-        margin: auto;
+        padding-left: -5rem;
         font-size: 40px;
     }
 

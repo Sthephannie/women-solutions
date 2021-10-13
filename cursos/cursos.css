@@ -258,6 +258,10 @@
 
     }
 
+    .bottom-content{
+        padding-left: 8rem;
+    }
+
     .button-content2{
 
         margin-left:-4.9rem;
@@ -355,13 +359,21 @@
         margin: auto;
                
     }
+    .bottom-content{
+        margin-left:-6rem;
+        margin-right: 1rem;
+
+    }
+
+    .bottom-content{
+        padding-left: 8rem;
+    }
+
     .container-footer {
-        display: grid;
-        margin-left: -5rem;
-        flex-direction: column;
-        justify-content: space-around;
-        padding-top:1rem;
-        padding-bottom:1rem;
-        padding-left: 1rem;
+        display:flex;
+        justify-content:left;
+        padding-top :1%;
+        padding-bottom :1%;
+        margin-left:0;
     }
 }

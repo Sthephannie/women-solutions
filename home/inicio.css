@@ -1,0 +1,296 @@
+*{
+    /*margin: 5px; --->mudei, criava margem onde nao devia*/
+    margin:  0;
+    /*height: 0,5px;--->mudei*/
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+
+header {
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(199, 63, 63, 0.25);
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.6rem;
+
+}
+.container_header {
+    height: auto;
+    width: 65%;
+    /*margin-left: 4.5rem; --->mudei para:*/
+    margin-left: -14.5rem;
+    display:flex;
+    justify-content:space-around;
+}
+nav {
+    margin-right: 5rem;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 5rem;
+    margin-left: 0.5rem;
+}
+.body h1 {
+    margin-top: 7rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 69px;
+    color: #FF4081;
+    /* acrescentei: */
+    padding-bottom:2rem;
+}
+.body p {
+    margin-left: 5rem;
+    display: flex;  
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    /*acrescente:*/
+    padding-bottom: 2rem;
+}
+.body button {
+    margin-left: 5rem;
+    display: flex;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    background:white;
+    border-color: #FF4081;
+    border-radius: 62px;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+/* criei este novo container para comportar a primeira seção*/
+.container_image{
+    height: auto;
+    width: 65%;
+    margin-left: 10rem;
+    display:flex;
+    justify-content: space-around;
+
+}
+.imagem {
+    margin-top: 5rem;
+    margin-right:-10rem;
+    /*display: flex; ---> já está no container acima*/
+}
+.container2 {
+    align-items: center;
+    background: #F7F7F7;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.container2 h1 {
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+}
+.name2 h1 {
+    align-content: center;
+    align-items: center;
+}
+.container2  {
+    display: flex;
+}
+.imagem2 {
+    align-items: center;
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+}
+.imagem2  h1 p {
+text-align: center;
+}
+.button-content a {
+    align-items: center;
+    text-transform: lowercase;
+    text-decoration: none;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin: 0 10px;
+    transition: 1s;
+    background: #FF4081;
+    border-radius: 62px;
+    padding: 0.9rem 3rem 0.9rem 3rem;
+}
+.imagem3 {
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+}
+.imagem4 {
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+}
+.container h1 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+.depoimento h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    color: #009688;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    /*margin-left: 4rem; --> mudei para:*/
+    margin-left: -13rem;
+}
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+.depoimento h5{
+    margin-bottom: 5rem;
+}
+.container-depoimento {
+    display: flex;
+    margin-left:-18rem;
+    
+}
+.depoimento1 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 4rem;
+}
+.depoimento2 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 4rem;
+}
+.depoimento3 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 4rem;
+}
+.depoimento4 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 4rem;
+}
+.depoimento-texto{
+    font-family: Nunito;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.8rem;
+}
+.conteudo {
+    display: flex;
+    background-color:#E5E5E5;
+    flex-direction: column;
+}
+.conteudo section{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.conteudo1{
+    display:flex;
+    flex-direction: column;
+}
+.conteudo h1 {
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    /*acrescentei:*/
+    margin-left:-5rem; 
+}
+.conteudo-titulo {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5.5rem;
+    padding-left:5.6rem;
+}
+.conteudo1 h2 {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+    align-items: center;
+}
+
+/*criei esta nova classe para o botão de conteudo*/
+
+.conteudo-button {
+    border: 2px solid #FF4081;
+    background-color: #E5E5E5;
+    border-radius: 62px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    color: #FF4081;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    margin:5rem;
+
+}
+/*criei este a para o botão de conteudo*/
+.conteudo-button a{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    color: #FF4081;
+    text-align:center;
+    text-transform: lowercase;
+    padding-left: 1.9rem; 
+    padding-right: 1.9rem;
+}    
+   
+.rodape {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;  
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo2 div {
+    display: flex;
+    flex-direction: column;
+}
+.rodape a {
+    text-transform: lowercase;
+    color: #FFFFFF;
+    padding-top:  0.3rem;
+}
+.rodape button {
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 62px;
+    margin-top: 0.4rem;
+    margin-right: 5rem;
+    color: #FFFFFF;
+    padding: 0.5rem 1.9rem 0.5rem 1.9rem;
+}
+.logo2 {
+    margin-left: 2rem;
+}

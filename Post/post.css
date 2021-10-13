@@ -1,0 +1,221 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal; 
+}
+
+header { 
+    background-color: #2e948a;
+    box-shadow: 0px 3px 7px rgba(199, 63, 63, 0.25);
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.6rem;
+}
+
+.container_header {
+    height: auto;
+    width: 65%;
+    margin-left: 2.5rem;
+}
+ 
+.button {
+    
+    margin-right: 5rem;
+}
+   
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+}
+
+.titulo {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    color: #FF4081;
+}
+
+.titulo h5 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    color: #9D9D9D;
+}
+.imagem {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background: #C4C4C4;
+}
+
+.texto {
+    margin-bottom: 5rem;
+    align-content: center;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+}
+.texto div {
+    align-self: center;
+}
+ .texto h1 {
+    align-self: start;
+    line-height: 2em;
+    color: #419488;  
+ }
+
+.texto p {
+    width: 50em;
+}
+
+.container {
+    align-items: center; 
+    background: #F7F7F7;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.container .container_body h1 {
+    align-content: center;
+    align-items: center; 
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;  
+    color: #FF4081;
+    
+}
+
+.container_body h1 {
+    align-content: center;
+    align-items: center; 
+}
+.container2  { 
+    display: flex;
+}
+.imagem2 {
+    align-items: center;
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+   
+}
+
+.imagem2  h1 p {
+text-align: center;
+ 
+}
+.button-content a {
+    align-items: center;
+    text-transform: lowercase;
+    text-decoration: none;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin: 0 10px;
+    transition: 1s;
+    background: #FF4081;
+    border-radius: 62px;
+    padding: 0.9rem 1.9rem 0.9rem 1.9rem;
+
+}
+
+.imagem3 {
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+   
+    
+}
+
+.imagem4 {
+   
+    border-radius: 12px;
+    padding: 15px;
+    flex: 1;
+    margin: 35px 8px;
+   
+}
+
+.container h1 {
+    
+
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #FF4081;
+
+}
+
+.rodape {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;  
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo2 div {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape a {
+    text-transform: lowercase;
+    color: #FFFFFF;
+    padding-top:  0.3rem;
+   
+}
+
+.rodape button {
+    
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 62px;
+    margin-top: 0.4rem;
+    margin-right: 5rem;
+    color: #FFFFFF;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.buttons {
+    margin-right: 15rem;
+}
+
+.logo2 {
+    margin-left: 3.5rem;
+}

@@ -19,3 +19,4 @@ smartphones.
 4. O site deve ser disponibilizado no Github Pages, com todas as imagens 
 renderizando corretamente.
 
+![Alt text](https://github.com/Sthephannie/women-solutions/blob/main/mer.jpg?raw=true)

@@ -166,6 +166,8 @@ input[name="nome"]{
     width: 100%;
     left: 0.1875rem;
     padding-left: 1.5625rem ;
+    font-family: "nunito";
+    font-size: 16px;
 }
 input[name="email"]{
     border-radius: 0.4375rem;
@@ -175,6 +177,8 @@ input[name="email"]{
     width: 100%;
     left: 0.1875rem;
     padding-left: 1.5625rem;
+    font-family: "nunito";
+    font-size: 16px;
 }
 textarea{
     border-radius: 0.4375rem;
@@ -186,6 +190,8 @@ textarea{
     left: 0.1875rem;
     resize: none;
     padding-left: 1.5625rem;
+    font-family: "nunito";
+    font-size: 16px;
 }
 input[type="submit"]{
     border-radius: 0.4375rem;
@@ -196,7 +202,8 @@ input[type="submit"]{
     max-width: 6.75rem;
     max-height: 1.375rem;
     border: none;
-    /** font nunito */
+    font-family: "nunito";
+    font-size: 16px;
 }
 h1 {
     font-size: 2.5rem;
@@ -267,6 +274,7 @@ footer{
     }
 }
 @media screen and (max-width:695px){
+
     .container-form{
         flex-direction: column;
         text-align: center;
@@ -288,4 +296,5 @@ footer{
         margin-bottom: 2rem;
          display: none;
     }
+    
 }

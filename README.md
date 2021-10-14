@@ -19,4 +19,10 @@ smartphones.
 4. O site deve ser disponibilizado no Github Pages, com todas as imagens 
 renderizando corretamente.
 
+### Trello da equipe:
+
+https://trello.com/b/oXtAppgb/banco-dindin
+
+### MER
+
 ![Alt text](https://github.com/Sthephannie/women-solutions/blob/main/mer.jpg?raw=true)
